@@ -49,26 +49,26 @@ Identify drivers that support:
 
 ## Key Insights
 
-- **Output & Seasonality:** A downward trend in overall movie counts across years; **March** shows the highest monthly releases (824). :contentReference[oaicite:0]{index=0}  
-- **Genres:** **Drama** has the largest total output (~4,285 titles), with ~1,078 released in 2019; **Action** and **Thriller** are also top-volume genres. Average runtimes: **Action ~113 min**, **Drama ~107**, **Thriller ~102**. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}  
-- **Directors & Talent:** In the top 3 genres with avg rating >8, standout directors include **James Mangold, Soubin Shahir, Joe Russo**; top Indian-market actors by median ratings include **Mammootty, Mohanlal**. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}  
-- **Production Power:** By total votes, **Marvel Studios, Twentieth Century Fox, Warner Bros** lead; by average-rating “hits,” **Dream Warrior Pictures** and **National Theatre Live** top the list. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}  
-- **Casting Shortlist (India focus):** For regional authenticity with proven audience pull, consider **Vijay Sethupathi, Fahadh Faasil, Yogi Babu, Joju George, Ammy Virk**; actresses **Taapsee Pannu, Kriti Sanon, Divya Dutta, Shraddha Kapoor, Kriti Kharbanda**. :contentReference[oaicite:7]{index=7}
+- **Output & Seasonality:** A downward trend in overall movie counts across years; **March** shows the highest monthly releases (824).
+- **Genres:** **Drama** has the largest total output (~4,285 titles), with ~1,078 released in 2019; **Action** and **Thriller** are also top-volume genres. Average runtimes: **Action ~113 min**, **Drama ~107**, **Thriller ~102**.
+- **Directors & Talent:** In the top 3 genres with avg rating >8, standout directors include **James Mangold, Soubin Shahir, Joe Russo**; top Indian-market actors by median ratings include **Mammootty, Mohanlal**.
+- **Production Power:** By total votes, **Marvel Studios, Twentieth Century Fox, Warner Bros** lead; by average-rating “hits,” **Dream Warrior Pictures** and **National Theatre Live** top the list.
+- **Casting Shortlist (India focus):** For regional authenticity with proven audience pull, consider **Vijay Sethupathi, Fahadh Faasil, Yogi Babu, Joju George, Ammy Virk**; actresses **Taapsee Pannu, Kriti Sanon, Divya Dutta, Shraddha Kapoor, Kriti Kharbanda**.
 
-> Full query logic and result tables are reproducible via the SQL script. :contentReference[oaicite:8]{index=8}
+> Full query logic and result tables are reproducible via the SQL script.
 
 ## Conclusion & Business Impact
 
 The SQL EDA highlights **genre focus (Drama/Action/Thriller)**, **runtime expectations (~102–113 min)**, and a **shortlist of proven directors/actors/production partners** to de-risk greenlighting and maximize global reach.  
-These findings can seed content strategy, casting outreach, and co-production discussions for RSVP’s next project. :contentReference[oaicite:9]{index=9}
+These findings can seed content strategy, casting outreach, and co-production discussions for RSVP’s next project.
 
 ## Files in this Repository
 
 | File Name                               | Description |
 |-----------------------------------------|-------------|
-| `IMDB+question_Solved.sql`              | End-to-end SQL solutions (Q1–Q29): EDA, rankings, window functions, multilingual hits, leaderboards. :contentReference[oaicite:10]{index=10} |
+| `IMDB+question_Solved.sql`              | End-to-end SQL solutions (Q1–Q29): EDA, rankings, window functions, multilingual hits, leaderboards.
 | `IMDb+movies+Data+and+ERD+final.xlsx`   | Tables (sample slices) & ERD to understand relationships and joins. |
-| `Executive Summary of RSVP Movies Case Study.pdf` | Slide-style consolidation of insights for stakeholders. :contentReference[oaicite:11]{index=11} |
+| `Executive Summary of RSVP Movies Case Study.pdf` | Slide-style consolidation of insights for stakeholders.
 
 ---
 
